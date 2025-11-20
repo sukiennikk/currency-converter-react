@@ -1,16 +1,6 @@
-.element {
-    margin: 0 auto;
-    width: max-content;
-    height: max-content;
-    background-image: url("./images/background.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .form {
     margin-top: 70px;
-    max-width: 500px;
-    width: 100%;
+    width: 350px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;

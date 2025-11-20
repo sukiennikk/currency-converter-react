@@ -1,5 +1,6 @@
 # Currency Converter
-A web application created as part of a project for the YouCode Online Programming School. The program allows quick conversion from PLN to EUR or USD. 
+A web application created as part of a project for the YouCode Online Programming School. 
+The app allows quick conversion from PLN to EUR or USD. 
 
 ## Technologies used: 
 - HTML,

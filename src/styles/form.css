@@ -3,7 +3,8 @@
     width: max-content;
     height: max-content;
     background-image: url("./images/background.jpg");
-
+    background-size: cover;
+    background-position: center;
 }
 
 .form {

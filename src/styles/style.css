@@ -17,14 +17,9 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #949494;
-    
 }
+
 
 .element {
   min-height: 100vh;

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/form.css";
+import Clock from "./Clock";
 
 export default function CurrencyConverter() {
   const [amount, setAmount] = useState("");
@@ -21,6 +22,8 @@ export default function CurrencyConverter() {
   };
 
   return (
+    <>
+      <Clock />
     <form className="form" onSubmit={onSubmit}>
       <fieldset className="form__fieldset">
         <legend className="caption">PRZELICZ WALUTĘ</legend>
@@ -61,5 +64,6 @@ export default function CurrencyConverter() {
         <button className="form__button">Przelicz</button>
       </p>
     </form>
+  </>
   );
 }

@@ -26,9 +26,8 @@ export default function Clock() {
      textAlign: "right", 
      fontSize: "14px", 
      color: "#777",
-     fontFamily: "'Roboto', sans-serif",
+     fontFamily: "'Cutive Mono', monospace",
      fontWeight: 300,
-     letterSpacing: "0.5px",
      margin: "0 0 20px 0" }}>
       Dzisiaj jest {formattedDate}
     </p>

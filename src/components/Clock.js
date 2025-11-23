@@ -22,7 +22,11 @@ export default function Clock() {
   });
 
   return (
-    <p style={{ textAlign: "right", fontSize: "14px", color: "#666" }}>
+    <p style={{ 
+     textAlign: "right", 
+     fontSize: "14px", 
+     color: "#777",
+     margin: "0 0 15px 0" }}>
       Dzisiaj jest {formattedDate}
     </p>
   );

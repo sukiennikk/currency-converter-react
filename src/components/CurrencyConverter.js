@@ -22,12 +22,10 @@ export default function CurrencyConverter() {
   };
 
   return (
-    <>
-      <Clock />
     <form className="form" onSubmit={onSubmit}>
+      <Clock />
       <fieldset className="form__fieldset">
         <legend className="caption">PRZELICZ WALUTĘ</legend>
-
         <p>
           <label className="form__labelText">
             Kwota PLN:
@@ -64,6 +62,5 @@ export default function CurrencyConverter() {
         <button className="form__button">Przelicz</button>
       </p>
     </form>
-  </>
   );
 }

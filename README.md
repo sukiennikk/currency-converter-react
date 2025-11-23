@@ -12,8 +12,11 @@ The app allows quick conversion from PLN to EUR or USD.
 
 https://sukiennikk.github.io/currency-converter-react/
 
-<img width="1919" height="766" alt="Zrzut ekranu 2025-11-20 190537" src="https://github.com/user-attachments/assets/c75ecda4-c276-4ecc-9a7e-deffab4e5a3c" />
+<img width="803" height="578" alt="Zrzut ekranu 2025-11-23 o 21 11 48" src="https://github.com/user-attachments/assets/2293b591-3a29-4e81-b40b-a573ff677a82" />
 
+## Updates
+
+The UI of the application was adjusted to modern trends. See more in Demo!
 
 #### Available Scripts
 

@@ -1,16 +1,8 @@
-import { useState, useEffect } from "react";
+import { useCurrentDate } from "../hooks/useCurrentDate";
 import { ClockText } from "./styled";
 
 export default function Clock() {
-  const [now, setNow] = useState(new Date());
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setNow(new Date());
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
+  const now = useCurrentDate();
 
   const formattedDate = now.toLocaleString("pl-PL", {
     weekday: "long",

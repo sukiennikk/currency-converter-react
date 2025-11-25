@@ -1,7 +1,6 @@
 import { useState } from "react";
-import Clock from "../Clock/Clock";
 import ConverterForm from "../ConverterForm/ConverterForm";
-import { Container, Card } from "./styled";
+import { Container } from "./styled";
 
 export default function CurrencyConverter() {
   const [result, setResult] = useState("");

@@ -20,10 +20,7 @@ export default function CurrencyConverter() {
 
   return (
     <Container>
-      <Card>
-        <Clock />
         <ConverterForm onConvert={handleConvert} result={result} />
-      </Card>
     </Container>
   );
 }

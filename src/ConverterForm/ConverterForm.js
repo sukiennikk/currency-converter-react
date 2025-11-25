@@ -2,6 +2,7 @@ import { useState } from "react";
 import RateSelect from "../RateSelect/RateSelect";
 import Result from "../Result/Result";
 import { Form, Fieldset, Caption, LabelText, Button } from "./styled";
+import Clock from "../Clock/Clock";
 
 export default function ConverterForm({ onConvert, result }) {
   const [amount, setAmount] = useState("");
@@ -14,6 +15,7 @@ export default function ConverterForm({ onConvert, result }) {
 
   return (
     <Form onSubmit={onSubmit}>
+      <Clock />
       <Fieldset>
         <Caption>PRZELICZ WALUTĘ</Caption>
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Clock from "../Clock/Clock";
 import ConverterForm from "../ConverterForm/ConverterForm";
-import { Container } from "./styled";
+import { Container, Card } from "./styled";
 
 export default function CurrencyConverter() {
   const [result, setResult] = useState("");
@@ -20,8 +20,10 @@ export default function CurrencyConverter() {
 
   return (
     <Container>
-      <Clock />
-      <ConverterForm onConvert={handleConvert} result={result} />
+      <Card>
+        <Clock />
+        <ConverterForm onConvert={handleConvert} result={result} />
+      </Card>
     </Container>
   );
 }

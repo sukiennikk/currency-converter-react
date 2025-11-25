@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../styles/form.css";
-import Clock from "./Clock";
+import "./styles/form.css";
+import Clock from "./Clock.js";
 
 export default function CurrencyConverter() {
   const [amount, setAmount] = useState("");

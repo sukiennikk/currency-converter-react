@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { ClockText } from "./styled";
 
 export default function Clock() {
   const [now, setNow] = useState(new Date());
@@ -21,17 +22,5 @@ export default function Clock() {
     second: "2-digit",
   });
 
-  return (
-    <p style={{ 
-     textAlign: "right", 
-     fontSize: "14px", 
-     color: "#777",
-     fontFamily: "'Cutive Mono', monospace",
-     fontWeight: 300,
-     margin: "0 0 20px 0" }}>
-      Dzisiaj jest {formattedDate}
-    </p>
-  );
+  return <ClockText>Dzisiaj jest {formattedDate}</ClockText>;
 }
-
-
